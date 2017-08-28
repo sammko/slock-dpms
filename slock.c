@@ -93,7 +93,7 @@ readpw(Display *dpy, const char *pws)
 	/* As "slock" doesn't stand for "Stoneage X screen locker", the DPMS settings
 	 * had been brought back so you can stop wasting your time to manage yet another
 	 * shell utility to lock your screen. Instead you can be productive - that is:
-	 * drink your bear and party hard. */
+	 * drink your beer and party hard. */
 	while(running && !XNextEvent(dpy, &ev)) {
 		if(len == 0 && DPMSCapable(dpy)) {
 			DPMSEnable(dpy);
